@@ -175,15 +175,15 @@ module "gluemod" {
 
 }
 
-#terraform {
- # backend "s3" {
-  #  bucket = "1ugterrabucket"
-   # region = "us-east-1"
-    #key = "terraform.tfstate"
-    #access_key = "AKIAQSE5ZET2Y6QSWUJW" 
-    #secret_key = "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"
-  #}
-#}
+terraform {
+  backend "s3" {
+    bucket = "ugterrabucket"
+    region = "us-east-1"
+    key = "terraform.tfstate"
+    access_key = "AKIAZYSXR73IJXTMT7QR" 
+    secret_key = "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"
+  }
+}
 
 
 
