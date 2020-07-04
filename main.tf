@@ -180,8 +180,8 @@ terraform {
     bucket = "ugterrabucket"
     region = "us-east-1"
     key = "terraform.tfstate"
-    access_key = "AKIAZYSXR73IJXTMT7QR" 
-    secret_key = "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"
+    access_key = "AKIARWSM57BPSVE3RYRQ" 
+    secret_key = "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"
   }
 }
 
