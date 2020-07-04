@@ -15,8 +15,8 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIARWSM57BPSVE3RYRQ',
-        secretKeyVariable: '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'
+        accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
+        secretKeyVariable: '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'
       ]]) {
         ansiColor('xterm') {
           sh '/usr/local/bin/terraform init'
@@ -31,8 +31,8 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIARWSM57BPSVE3RYRQ',
-        secretKeyVariable: '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'
+        accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
+        secretKeyVariable: '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'
       ]]) {
         ansiColor('xterm') {
           sh '/usr/local/bin/terraform plan'
@@ -49,8 +49,8 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIARWSM57BPSVE3RYRQ',
-          secretKeyVariable: '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'
+          accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
+          secretKeyVariable: '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'
         ]]) {
           ansiColor('xterm') {
             sh '/usr/local/bin/terraform apply -auto-approve'
@@ -65,8 +65,8 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIARWSM57BPSVE3RYRQ',
-          secretKeyVariable: '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'
+          accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
+          secretKeyVariable: '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'
         ]]) {
           ansiColor('xterm') {
             sh '/usr/local/bin/terraform show'
