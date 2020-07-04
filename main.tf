@@ -179,9 +179,9 @@ terraform {
   backend "s3" {
     bucket     = "ugterrabucket"
     region     = "us-east-1"
-    key        = "terraform.tfstate"
-    access_key = "AKIARWSM57BPSVE3RYRQ"
-    secret_key = "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"
+    key        = "ugterrabucket/terraform.tfstate"
+    access_key = "AKIAXLBXGM4WJ66JAOMZ"
+    secret_key = "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"
   }
 }
 
