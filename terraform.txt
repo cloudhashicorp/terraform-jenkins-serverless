@@ -1,0 +1,10 @@
+2020/07/05 16:15:36 [INFO] Terraform version: 0.13.0 beta2 
+2020/07/05 16:15:36 [INFO] Go runtime version: go1.14.2
+2020/07/05 16:15:36 [INFO] CLI args: []string{"C:\\WINDOWS\\system32\\terraform.exe", "apply", "-help"}
+2020/07/05 16:15:36 [DEBUG] Attempting to open CLI config file: C:\Users\darwi\AppData\Roaming\terraform.rc
+2020/07/05 16:15:36 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2020/07/05 16:15:36 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2020/07/05 16:15:36 [DEBUG] ignoring non-existing provider search directory C:\Users\darwi\AppData\Roaming\terraform.d\plugins
+2020/07/05 16:15:36 [DEBUG] ignoring non-existing provider search directory C:\Users\darwi\AppData\Roaming\HashiCorp\Terraform\plugins
+2020/07/05 16:15:36 [INFO] CLI command args: []string{"apply", "-help"}
+2020/07/05 16:15:36 [ERR] Checkpoint error: EOF
