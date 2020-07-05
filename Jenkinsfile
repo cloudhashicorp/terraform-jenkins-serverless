@@ -15,8 +15,8 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A',
-        secretKeyVariable: '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'
+        accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A', //expired keys for the purpose of demo only
+        secretKeyVariable: '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' //expired keys for the purpose of demo only
       ]]) {
         ansiColor('xterm') {
           sh '/usr/local/bin/terraform init'
@@ -31,8 +31,8 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A',
-        secretKeyVariable: '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'
+        accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A', //expired keys for the purpose of demo only
+        secretKeyVariable: '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' //expired keys for the purpose of demo only
       ]]) {
         ansiColor('xterm') {
           sh '/usr/local/bin/terraform plan'
@@ -49,8 +49,8 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A',
-          secretKeyVariable: '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'
+          accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A', //expired keys for the purpose of demo only
+          secretKeyVariable: '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' //expired keys for the purpose of demo only
         ]]) {
           ansiColor('xterm') {
             sh '/usr/local/bin/terraform apply -auto-approve'
@@ -65,8 +65,8 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A',
-          secretKeyVariable: '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'
+          accessKeyVariable: 'AKIA3VGCKVNJ763YAH2A', //expired keys for the purpose of demo only
+          secretKeyVariable: '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' //expired keys for the purpose of demo only
         ]]) {
           ansiColor('xterm') {
             sh '/usr/local/bin/terraform show'
