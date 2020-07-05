@@ -177,7 +177,7 @@ module "gluemod" {
 
 terraform {
   backend "s3" {
-    bucket     = "13ugterrabucket"
+    bucket     = "14ugterrabucket"
     region     = "us-east-1"
     key        = "terraform.tfstate"
     access_key = "AKIAY542N4YHHQ3US3F6"
