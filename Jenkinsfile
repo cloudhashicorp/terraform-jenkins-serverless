@@ -1,5 +1,5 @@
 // Jenkinsfile
-String credentialsId = 'cloud_user'
+String credentialsId = 'awsCredentials'
 
 try {
   stage('checkout') {
@@ -15,8 +15,8 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
-        secretKeyVariable: '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'
+        accessKeyVariable: 'AKIAY542N4YHHQ3US3F6',
+        secretKeyVariable: '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'
       ]]) {
         ansiColor('xterm') {
           sh '/usr/local/bin/terraform init'
@@ -31,8 +31,8 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
-        secretKeyVariable: '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'
+        accessKeyVariable: 'AKIAY542N4YHHQ3US3F6',
+        secretKeyVariable: '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'
       ]]) {
         ansiColor('xterm') {
           sh '/usr/local/bin/terraform plan'
@@ -49,8 +49,8 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
-          secretKeyVariable: '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'
+          accessKeyVariable: 'AKIAY542N4YHHQ3US3F6',
+          secretKeyVariable: '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'
         ]]) {
           ansiColor('xterm') {
             sh '/usr/local/bin/terraform apply -auto-approve'
@@ -65,8 +65,8 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIAUPKWME4XYNHT2SNR',
-          secretKeyVariable: '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'
+          accessKeyVariable: 'AKIAY542N4YHHQ3US3F6',
+          secretKeyVariable: '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'
         ]]) {
           ansiColor('xterm') {
             sh '/usr/local/bin/terraform show'
