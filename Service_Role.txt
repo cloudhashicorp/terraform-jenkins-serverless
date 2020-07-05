@@ -2,12 +2,16 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Effect": "Allow",
             "Action": [
-                "iam:AttachRolePolicy",
+                "iam:CreateInstanceProfile",
+                "iam:CreateUser",
                 "iam:CreateRole",
-                "iam:PutRolePolicy"
-                ],
+                "iam:RemoveRoleFromInstanceProfile",
+                "iam:AddRoleToInstanceProfile",
+                "iam:PassRole",
+                "iam:DeleteInstanceProfile"
+            ],
+            "Effect": "Allow",
             "Resource": "*"
         }
     ]
