@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "s3:ListBucket",
-            "Resource": "arn:aws:s3:::14ugterrabucket"
+            "Resource": "arn:aws:s3:::15ugterrabucket"
         },
         {
             "Effect": "Allow",
@@ -12,7 +12,7 @@
                 "s3:GetObject",
                 "s3:PutObject"
             ],
-            "Resource": "arn:aws:s3:::14ugterrabucket/terraform.tfstate"
+            "Resource": "arn:aws:s3:::15ugterrabucket/terraform.tfstate"
         }
     ]
 }
