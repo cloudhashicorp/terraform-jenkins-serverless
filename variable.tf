@@ -4,14 +4,13 @@ variable "region" {
 
 variable "access_key_id" {
 
-  default = "AKIA6EGNWL7QK4GCJ7V5" # this is an expired key. type your own AWS access_key
+  default = "AKIA6EGNWL7QBTZAT2J6" # this is an expired key. type your own AWS access_key
 }
 
 variable "secret_key_id" {
 
-  default = "lWsoDmydC7mhH4aVj/y/1hJ1K/ZvLksZufLQOhW7" # this is an expired key. type your own AWS secret_key
+  default = "FKVw11ZCmEBFfrDW7ah8hUddf4/pheBDDsLSLE7T" # this is an expired key. type your own AWS secret_key
 }
-
 
 
 

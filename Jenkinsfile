@@ -15,7 +15,7 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIA6EGNWL7QK4GCJ7V56',
+        accessKeyVariable: 'AKIA6EGNWL7QBTZAT2J6',
         secretKeyVariable: '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'
       ]]) {
         ansiColor('xterm') {
@@ -31,7 +31,7 @@ try {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: credentialsId,
-        accessKeyVariable: 'AKIA6EGNWL7QK4GCJ7V56',
+        accessKeyVariable: 'AKIA6EGNWL7QBTZAT2J6',
         secretKeyVariable: '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'
       ]]) {
         ansiColor('xterm') {
@@ -49,7 +49,7 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIA6EGNWL7QK4GCJ7V56',
+          accessKeyVariable: 'AKIA6EGNWL7QBTZAT2J6',
           secretKeyVariable: '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'
         ]]) {
           ansiColor('xterm') {
@@ -65,7 +65,7 @@ try {
         withCredentials([[
           $class: 'AmazonWebServicesCredentialsBinding',
           credentialsId: credentialsId,
-          accessKeyVariable: 'AKIA6EGNWL7QK4GCJ7V56',
+          accessKeyVariable: 'AKIA6EGNWL7QBTZAT2J6',
           secretKeyVariable: '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'
         ]]) {
           ansiColor('xterm') {
